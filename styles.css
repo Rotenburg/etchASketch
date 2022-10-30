@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    
+        /* border-style: solid;
+        border-width: thin; */
+}
+
+.example{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: thin;
+}
+
+.exampleContainer{
+    border-style: solid;
+    border-width: thin;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+        /* grid-row-gap: 20px; */
+        /* grid-column-gap: 20px; anstelle dessen die nächste Zeile */
+        /* grid-gap: 20px; */
+        /* justify-content: stretch;
+        align-content: stretch; */
+        /* height: 100vh; */
+        /* justify-items: center; Dies führt zu Verkürzung des Grids zur Contentbreite */
+        /* align-items: center;
+        justify-content: center; */
+}
+.item1{
+        /* align-self: center; */
+        /* justify-self: center; This leads to the box   */
+}
